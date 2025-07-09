@@ -123,19 +123,43 @@ header{
 
 .about-me-section{
     max-width: 1140px;
-    max-height: 550px;
     margin: 0 auto;
+    margin-top: 131px;
+    margin-bottom: 131px;
 }
 
 .about-me-section-title{
     font-size: 35px;
     font-weight: 700;
     text-align: center;
+    padding-top: 130px;
+    margin-bottom: 30px;
 }
 
-.about-me-section-details{
+.about-me-section-description{
     font-size: 18px;
     font-weight: 400;
     text-align: center;
     margin: 30px 157px;
+}
+
+.about-me-details{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 131px;
+    padding-bottom: 130px;
+    margin-bottom: 30px;
+}
+
+.about-me-details h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about-me-details h4{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
 }
