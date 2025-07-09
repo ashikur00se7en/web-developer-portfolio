@@ -1,0 +1,120 @@
+/* Google Fonts */
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Shared Styles */
+.primary-color{
+    color: #FD6E0A;
+}
+
+.text-color-dark-2{
+    color: #474747;
+}
+
+.text-color-dark-1{
+    color: #181818;
+}
+
+.text-color-dark-3{
+    color: #757575;
+}
+
+.btn-primary{
+    color: white;
+    background-color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px 19px 36px;
+}
+
+.btn-secondary{
+    color: #FD6E0A;
+    background-color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 35px 19px 36px;
+}
+
+.contact-btn{
+    margin-left: 30px;
+}
+
+.content-background-color{
+    background-color: #FFF8F3;
+}
+
+/* Navbar Styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.nav-title{
+    font-size: 45px;
+    font-weight: 800px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.portfolio-text, .blog-text{
+    margin-right: 51px;
+}
+
+/* Banner Section Styles */
+
+.banner-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 200px;
+    gap: 163px;
+}
+
+.banner-greeting{
+    font-size: 45px;
+    font-weight:600;
+    padding-top: 40px;
+    margin: 0px;
+}
+
+.banner-name{
+    font-size: 85px;
+    font-weight: 700px;
+    margin: 0%;
+}
+
+.banner-description{
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 30px;
+}
+
+header{
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
